@@ -17,6 +17,7 @@ void menu(){
     cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl<<endl;
     cout<<"Podaj wybor:"<<endl;
     cin>> wybor;
+    cout<<"Twoj wybor: " << wybor[0] << endl;
     while(wybor[0]!='1' and wybor[0]!='2' and wybor[0]!='3'){
         cout<<"Podaj inny wybor:"<<endl;
         cin>> wybor;

@@ -29,7 +29,7 @@ void wczytaj_labirynt_lista()
 {
     string nazwa,linijka,wybor;
     int xP,yP,xK,yK,n=0,rozmiar,dlugosc;
-    cout << "Podaj rozmiar, musi to byc liczba nieparzysta oraz wieksza niz 3: ";
+    cout << "Podaj rozmiar wczytywanego labiryntu, musi to byc liczba nieparzysta oraz wieksza niz 3: ";
     while( (!(cin >> rozmiar)) or (rozmiar<3) or (rozmiar%2==0) ){
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
